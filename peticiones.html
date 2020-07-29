@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="juegos"
+    />
+    <title>JUEGOS-J</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />    
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <header class="cover">
+    <div class="contenedor-centrado separacion-nav-h1 fuente-nav-h1">
+      <div class="logo-barra">
+          <a href="./index.html">
+          <img
+            src="./img/logo.svg"
+            alt="Logotipo de TZD Tienda de Zapatos deportivos"
+          />        
+          <nav class="navegacion">
+            
+            <a href="./index.html">Inicio</a>
+            <a href="./juegos.html">Juegos</a>
+            <a href="./peticiones.html">Peticiones</a>
+          </nav>
+      </div>
+    
+    </div>
+    </header>
+    <div class="titulo-contacto">
+      <a href="#formulario">
+        <h1 class="fw-300 texto-centrado">PETICIONES</h1>
+      </a>
+    </div>
+
+<main class="contenedor-centrado seccion contenido-centrado">
+  <h2 class="fw-300 texto-centrado" id="formulario">Llena el Formulario</h2>
+  <form action="">
+    <fieldset>
+      <legend>Info</legend>
+      <label for="nombres"> Nombres: </label>
+      <input type="text" id="nombres" placeholder="Tus Nombres">
+
+      
+
+      <div class="formato-documento">
+        <label for="tipo-doc">tipo:</label>
+        <select name="" id="tipo-doc">
+          <option value=""selected disabled>Seleccionar</option>
+          <option value="cedula">Cedula</option>
+          <option value="pasaporte">Pasaporte</option>
+        </select>
+        <label for="documento">Documento:</label>
+        <input type="text" id="documento" placeholder="Tu Numero de Documento">
+      </div>
+      <label for="fecha-nac">Fecha de Nacimiento</label>
+<input type="date" id="fecha-nac> />   
+<label for="sexo">Sexo</label>
+<select name="" id="sexo">
+  <option value=""selected disabled>Seleccionar</option>
+<option value="femenino">Femenino</option>
+<option value="masculino">Masculino</option>
+
+</select>
+<labvel for="email">E-mail</labvel>
+<input type="email" placeholder="Tu correo electronico" id="email">
+
+<label for="telefono">Telefono</label> 
+<input type="phone" placeholder="Tu telefono" id="telefono">
+
+<label for="mensaje">Mensaje</label>
+<textarea id="mensaje"placeholder="Dejamos un mensaje"></textarea>
+ 
+</fieldset>
+<input type="submit" class="boton boton-verde" value="Enviar">
+  </form>
+</main>
+    
+</body>
+</html>
